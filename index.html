@@ -25,28 +25,30 @@
           </a>
           <ul class="menu list">
             <li class="menu-item">
-              <a class="menu-link" href="./index.html">Studio</a>
+              <a class="menu-link current-page" href="./index.html">Studio</a>
             </li>
             <li class="menu-item">
               <a class="menu-link" href="">Portfolio</a>
             </li>
-            <li class="menu-item"><a class="menu-link" href="">Contacts</a></li>
+            <li class="menu-item">
+              <a class="menu-link" href="">Contacts</a>
+            </li>
           </ul>
         </nav>
         <address class="contact">
           <ul class="contact list">
             <li>
-              <a
-                class="contact-link"
-                href="mailto:info@devstudio.com"
-                target="_blank"
-              >
-                info@devstudio.com
+              <a class="contact-link"
+                 href="mailto:info@devstudio.com"
+                 target="_blank">
+                 info@devstudio.com
               </a>
             </li>
             <li>
-              <a class="contact-link" href="tel:+110001111111" target="_blank">
-                +11 (000) 111-11-11
+              <a class="contact-link"
+                 href="tel:+110001111111"
+                 target="_blank">
+                 +11 (000) 111-11-11
               </a>
             </li>
           </ul>
@@ -66,7 +68,8 @@
           <ul class="benefits-list list">
             <li class="benefits-list-item">
               <div class="benefits-icon-container">
-                <svg class="benefits-list-icon" width="64" height="64">
+                <svg class="benefits-list-icon" width="64" height="64"
+                     aria-label="antenna picture">
                   <use href="./images/sprite.svg#icon-antenna"></use>
                 </svg>
               </div>
@@ -78,7 +81,7 @@
             </li>
             <li class="benefits-list-item">
               <div class="benefits-icon-container">
-                <svg class="benefits-list-icon" width="64" height="64">
+                <svg class="benefits-list-icon" width="64" height="64" aria-label="clock picture">
                   <use href="./images/sprite.svg#icon-clock"></use>
                 </svg>
               </div>
@@ -90,7 +93,8 @@
             </li>
             <li class="benefits-list-item">
               <div class="benefits-icon-container">
-                <svg class="benefits-list-icon" width="64" height="64">
+                <svg class="benefits-list-icon" width="64" height="64" 
+                     aria-label="diagram picture">
                   <use href="./images/sprite.svg#icon-diagram"></use>
                 </svg>
               </div>
@@ -102,7 +106,8 @@
             </li>
             <li class="benefits-list-item">
               <div class="benefits-icon-container">
-                <svg class="benefits-list-icon" width="64" height="64">
+                <svg class="benefits-list-icon" width="64" height="64" 
+                     aria-label="astronavt picture">
                   <use href="./images/sprite.svg#icon-astronaut"></use>
                 </svg>
               </div>
@@ -133,28 +138,32 @@
                   <ul class="social-list">
                     <li class="social-list-item list">
                       <a href="" class="social-list-link">
-                        <svg class="social-list-icon" width="12" height="12">
+                        <svg class="social-list-icon" width="12" height="12" 
+                             aria-label="instagram icon">
                           <use href="./images/sprite.svg#icon-instagram"></use>
                         </svg>
                       </a>
                     </li>
                     <li class="social-list-item list">
                       <a href="" class="social-list-link">
-                        <svg class="social-list-icon" width="12" height="12">
+                        <svg class="social-list-icon" width="12" height="12" 
+                             aria-label="twitter icon">
                           <use href="./images/sprite.svg#icon-twitter"></use>
                         </svg>
                       </a>
                     </li>
                     <li class="social-list-item list">
                       <a href="" class="social-list-link">
-                        <svg class="social-list-icon" width="12" height="12">
+                        <svg class="social-list-icon" width="12" height="12" 
+                             aria-label="facebook icon">
                           <use href="./images/sprite.svg#icon-facebook"></use>
                         </svg>
                       </a>
                     </li>
                     <li class="social-list-item list">
                       <a href="" class="social-list-link">
-                        <svg class="social-list-icon" width="12" height="12">
+                        <svg class="social-list-icon" width="12" height="12" 
+                             aria-label="linkedin icon">
                           <use href="./images/sprite.svg#icon-linkedin"></use>
                         </svg>
                       </a>
@@ -303,72 +312,90 @@
           <h2 class="portfolio-title section-title">Our Portfolio</h2>
           <ul class="portfolio-list list">
             <li class="portfolio-list-item">
-              <img
+              <div class="overlay-wrapper">
+                <img
                 src="./images/img5.jpg"
                 alt="Banking App pages photo"
                 width="360"
                 height="300"
-              />
+                />
+                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
               <div class="portfolio-container">
                 <h3 class="portfolio-list-title">Banking App</h3>
                 <p class="portfolio-list-text">App</p>
               </div>
             </li>
             <li class="portfolio-list-item">
-              <img
+              <div class="overlay-wrapper">
+                <img
                 src="./images/img6.jpg"
                 alt="Mobile phone payment photo"
                 width="360"
                 height="300"
-              />
+                />
+                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
               <div class="portfolio-container">
                 <h3 class="portfolio-list-title">Cashless Payment</h3>
                 <p class="portfolio-list-text">Marketing</p>
               </div>
             </li>
             <li class="portfolio-list-item">
-              <img
+              <div class="overlay-wrapper">
+                <img
                 src="./images/img7.jpg"
                 alt="Laptop and smartphone photo"
                 width="360"
                 height="300"
-              />
+                />
+                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
               <div class="portfolio-container">
                 <h3 class="portfolio-list-title">Meditation App</h3>
                 <p class="portfolio-list-text">App</p>
               </div>
             </li>
             <li class="portfolio-list-item">
-              <img
+              <div class="overlay-wrapper">
+                <img
                 src="./images/img8.jpg"
                 alt="Man driving a car photo"
                 width="360"
                 height="300"
-              />
+                />
+                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
               <div class="portfolio-container">
                 <h3 class="portfolio-list-title">Taxi Service</h3>
                 <p class="portfolio-list-text">Marketing</p>
               </div>
             </li>
             <li class="portfolio-list-item">
-              <img
+              <div class="overlay-wrapper">
+                <img
                 src="./images/img9.jpg"
                 alt="Smartphone photo"
                 width="360"
                 height="300"
-              />
+                />
+                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
               <div class="portfolio-container">
                 <h3 class="portfolio-list-title">Screen Illustrations</h3>
                 <p class="portfolio-list-text">Design</p>
               </div>
             </li>
             <li class="portfolio-list-item">
-              <img
+              <div class="overlay-wrapper">
+                <img
                 src="./images/img10.jpg"
                 alt="Happy girl whith smartphone photo"
                 width="360"
                 height="300"
-              />
+                />
+                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
               <div class="portfolio-container">
                 <h3 class="portfolio-list-title">Online Courses</h3>
                 <p class="portfolio-list-text">Marketing</p>
