@@ -400,6 +400,11 @@ body {
     gap: 16px;
 }
 
+.foter-social-link:hover,
+.foter-social-link:focus {
+    background-color: #31D0AA;
+}
+
 .social-list-title {
     margin-bottom: 16px;
     font-family: "Roboto", sans-serif;
