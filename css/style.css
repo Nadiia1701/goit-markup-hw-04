@@ -380,10 +380,13 @@ body {
     margin-bottom: 16px;
 }
 
+.footer-logo-text-container {
+    margin-right: 120px;
+}
+
 .footer-text {
     width: 264px;
     height: 72px;
-    margin-right: 120px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -393,6 +396,11 @@ body {
 
 .container-flex-footer {
     display: flex;
+    align-items: baseline;
+}
+
+.social-list-footer {
+    gap: 16px;
 }
 
 .social-list-title {
