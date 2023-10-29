@@ -252,10 +252,6 @@ body {
     color: #2E2F42;
 }
 
-.team-list-item-img {
-    margin-bottom: 32px;
-}
-
 .team-list-title, .portfolio-list-title {
     margin-bottom: 8px;
     font-size: 20px;
@@ -267,7 +263,8 @@ body {
 
 .team-container {
     text-align: center;
-    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     margin-right: auto;
     margin-left: auto;
 }
